@@ -1,0 +1,31 @@
+{
+    "name": "@netsells/storybook-mockdate",
+    "version": "0.1.0",
+    "main": "./dist/index.js",
+    "license": "MIT",
+    "scripts": {
+        "prepublish": "NODE_ENV=production npm run build",
+        "build": "babel -d dist/ lib/index.js"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.12.10",
+        "@babel/core": "^7.12.10",
+        "@babel/preset-env": "^7.12.11"
+    },
+    "dependencies": {
+        "dayjs": "^1.10.4",
+        "mockdate": "^3.0.2"
+    },
+    "repository": {
+        "url": "https://github.com/netsells/storybook-mockdate"
+    },
+    "author": {
+        "name": "Sam Turrell",
+        "url": "https://samturrell.co.uk",
+        "email": "sam.turrell@netsells.co.uk"
+    },
+    "files": [
+        "dist/",
+        "lib/"
+    ]
+}
