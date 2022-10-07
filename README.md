@@ -16,11 +16,23 @@ $ yarn add -D @netsells/storybook-mockdate
 
 Provide the decorator in your storybook decorators config:
 
+#### Vue
+
 ```js
 import withMockdate from '@netsells/storybook-mockdate';
 
 export default [
     withMockdate,
+];
+```
+
+#### React
+
+```js
+import { withMockdateReact } from '@netsells/storybook-mockdate';
+
+export default [
+    withMockdateReact,
 ];
 ```
 
