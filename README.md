@@ -4,6 +4,8 @@ This package provides an easy and convenient way to lock your stories at a speci
 
 Not only will this lock your stories at a specific date, it will also display that date as an overlay on your story to show the date being mocked.
 
+This decorator is compatible with Vue and React stories.
+
 ## Installation
 
 ```sh
