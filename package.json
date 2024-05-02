@@ -8,13 +8,13 @@
         "build": "babel -d dist/ lib/*"
     },
     "devDependencies": {
-        "@babel/cli": "^7.12.10",
-        "@babel/core": "^7.12.10",
-        "@babel/preset-env": "^7.12.11"
+        "@babel/cli": "^7.24.5",
+        "@babel/core": "^7.24.5",
+        "@babel/preset-env": "^7.24.5"
     },
     "dependencies": {
-        "dayjs": "^1.10.4",
-        "mockdate": "^3.0.2"
+        "dayjs": "^1.11.11",
+        "mockdate": "^3.0.5"
     },
     "repository": {
         "url": "https://github.com/netsells/storybook-mockdate"
