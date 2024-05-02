@@ -41,7 +41,9 @@ export default {
 You can also provide a date to specific stories if required:
 
 ```js
-story.parameters = {
-    mockdate: new Date('2020-01-14T15:47:18.502Z'), // Any date contructor format will work
+export const myComponent = {
+    parameters: {
+        mockdate: new Date('2020-01-14T15:47:18.502Z'), // Any date contructor format will work
+    },
 };
 ```
